@@ -1,3 +1,4 @@
+/*
 import Map from "ol/Map.js";
 import View from "ol/View.js";
 import MVT from "ol/format/MVT.js";
@@ -32,9 +33,9 @@ var map = new Map({
     zoom: 2
   })
 });
+*/
 
-import olms from "ol-mapbox-style/olms.js";
-/* import { apply } from "ol-mapbox-style"; */
+import { apply } from "ol-mapbox-style";
 
 var mapStyle = {
   version: 8,
@@ -6392,5 +6393,5 @@ var mapStyle = {
   id: "cjbdftwmm936t2rquyt8ycvor",
   visibility: "private"
 };
-/* apply("map", mapStyle); */
-olms.apply(map, mapStyle);
+
+apply(map, mapStyle);
