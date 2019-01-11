@@ -6357,4 +6357,4 @@ var mapStyle = {
   visibility: "private"
 };
 
-apply(map, mapStyle);
+apply("map", mapStyle);
